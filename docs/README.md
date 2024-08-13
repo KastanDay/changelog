@@ -18,6 +18,7 @@ description: A constant update of how I spend my time at work.
   * Respect previous choices. E.g. the "last selected model" will attempt to be used, fallback to the preference list.
   * Respect enabled/disabled models when selecting the default
   * Bugfix: gpt-4o-mini can now be disabled, previously that one model bypassed checks.
+* Redirect NCSA.ai -> UIUC.chat because it's now deprecated and superseded by UIUC.chat.
 
 ### Aug 12, 2024
 
