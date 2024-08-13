@@ -6,9 +6,18 @@ description: A constant update of how I spend my time at work.
 
 ### Aug 13, 2024
 
+#### MMLI
+
+* Fixed database initialization (was missing a secrets file, so I'm glad I asked for help).&#x20;
+* Met with Bingji to plan frontend-backend integration. We wrote a spec for the two endpoints we need. It was a delightfully efficient meeting: as long as we agree on the API shape, we're good.&#x20;
+
 #### UIUC.chat
 
 * Merge Rohan's PR that [adds Tools and Llama 3 support to our API](https://github.com/KastanDay/ai-ta-frontend/pull/162).&#x20;
+* Merge my PR [Improve Default Model on /chat page](https://github.com/KastanDay/ai-ta-frontend/pull/166)
+  * Respect previous choices. E.g. the "last selected model" will attempt to be used, fallback to the preference list.
+  * Respect enabled/disabled models when selecting the default
+  * Bugfix: gpt-4o-mini can now be disabled, previously that one model bypassed checks.
 
 ### Aug 12, 2024
 
