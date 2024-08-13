@@ -4,6 +4,12 @@ description: A constant update of how I spend my time at work.
 
 # Changelog
 
+### Aug 13, 2024
+
+#### UIUC.chat
+
+* Merge Rohan's PR that [adds Tools and Llama 3 support to our API](https://github.com/KastanDay/ai-ta-frontend/pull/162).&#x20;
+
 ### Aug 12, 2024
 
 #### [MMLI](https://moleculemaker.org/)
