@@ -6,6 +6,42 @@ description: A constant update of how I spend my time at work.
 
 ### Aug 13, 2024
 
+#### UIUC.chat&#x20;
+
+See: [UIUC.chat Vision & Medium Term Plan](https://kastanday.notion.site/UIUC-chat-Vision-Medium-Term-Plan-b2f6dc4e1ae748798793909d579ff527?pvs=74)
+
+* Group planning for automated `Metadata extraction` and `Insights` on UIUC.chat.&#x20;
+  * Key ideas: structured outputs, creating charts and visualizations from user's documents, creating insights over multiple documents specifically `hierarchical summarization` and `contradiction identification`.
+
+#### Servers
+
+* Storage server: Installed 4x 18TB HDDs
+  * It’s still much cheaper to DIY than anything else. Cloud is cheapest $7/TB/mo, and I can buy (raw) at $9/TB. So even at 9\*1.33 = 11.97 I’m still at under 2 month payback period.
+* Web server: installed 2x 1TB Optane P905 U.2 drives.&#x20;
+  * These are the lowest-latency drives ever made for random database access, e.g. Q-depth-1 (QD-1) reads from disk). Optane U.2 drives are extremely impressive as ZFS Special Metadata devices, now I'm provisioning a DB server with mirrored Optane drives. This setup (fast CPU, tons of DDR4 memory and Optane storage) be perfect for `qdrant` and `postgres` web serving.&#x20;
+
+<div>
+
+<figure><img src=".gitbook/assets/zfs.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/zfs2.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/home-servers.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Paragliding - My first time flying.
+
+Seattle, WA.
+
+<figure><img src=".gitbook/assets/CleanShot 2024-08-14 at 23.03.33.gif" alt="" width="314"><figcaption></figcaption></figure>
+
+### Aug 13, 2024
+
 #### MMLI
 
 * Fixed database initialization (was missing a secrets file, so I'm glad I asked for help).&#x20;
