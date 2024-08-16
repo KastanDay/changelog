@@ -4,6 +4,21 @@ description: A constant update of how I spend my time at work.
 
 # Changelog
 
+### Aug 15-16, 2024
+
+#### UIUC.chat
+
+* Extensive debugging of the Postgres database, it looks like a JSONB column in a table is causing `pg_dump -> pg_restore` to error out. Our guess is malfromed json snuck into the DB.&#x20;
+
+#### Amazon AICE
+
+* Synthetic data generation with [Distilabel](https://distilabel.argilla.io/). Implementing our filtering rules via their classes.&#x20;
+* More manual data cleaning, removed a further 30 bad questions of our 800. Quality is everything. It's worth manual filtering for the 'last bit of ultra-high quality post-training data'.
+
+#### Home servers
+
+* Provisioned ZFS on mirrored Optane drives, passed through to the VM so the VM gets the raw performance of the Optane drives (instead of making a NFS share, which adds tons of latency and overhead).
+
 ### Aug 14, 2024
 
 #### UIUC.chat&#x20;
@@ -34,11 +49,9 @@ See: [UIUC.chat Vision & Medium Term Plan](https://kastanday.notion.site/UIUC-ch
 
 </div>
 
-#### Paragliding - My first time flying.
+#### Paragliding
 
-Seattle, WA.
-
-<figure><img src=".gitbook/assets/CleanShot 2024-08-14 at 23.03.33.gif" alt="" width="314"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CleanShot 2024-08-14 at 23.03.33.gif" alt="" width="314"><figcaption><p>My first time flying. PooPoo point, WA.</p></figcaption></figure>
 
 ### Aug 13, 2024
 
