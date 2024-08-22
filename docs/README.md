@@ -13,6 +13,29 @@ description: A constant update of how I spend my time at work.
 
 <figure><img src=".gitbook/assets/CleanShot 2024-08-21 at 16.47.16.gif" alt=""><figcaption><p>ELK Stack (Elasticsearch, Logstash, Kibana). </p></figcaption></figure>
 
+### Aug 18, 2024 (sunday)
+
+#### Dotfiles refactor
+
+{% hint style="info" %}
+Get the goodies here: [https://github.com/KastanDay/dotfiles](https://github.com/KastanDay/dotfiles)
+{% endhint %}
+
+1. Migrated my dotfiles from Gitlab to Github.&#x20;
+2. Greatly refined all my install scripts and README.
+   1. [My best `~/.ZSHRC`](https://github.com/KastanDay/dotfiles/blob/master/master-setup-scripts/.zshrc\_mac)
+   2. My favorite developer utilities and OhMyZsh plugins&#x20;
+   3. My delightful Mini-Mamba install scripts
+3. Notable mentions:
+   * `Powerlevel 10k` , greatest thing since sliced bread
+   * `glances` - a better htop
+   * `lsd` - a better ls
+   * `bat` - a better cat
+   * `fzf` - a better grep // excellent at reverse terminal search (command history search)
+   * `ag` - a better find
+   * some great OhMyZsh plugins
+   * `miniconda`. Edit: actually `mini-mamba` , the faster version of conda developed by high frequency traders.
+
 ### Aug 15-16, 2024
 
 #### UIUC.chat
