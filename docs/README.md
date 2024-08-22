@@ -4,7 +4,7 @@ description: A constant update of how I spend my time at work.
 
 # Changelog
 
-### Aug 21, 2024
+### Wednesday, Aug 21
 
 #### UIUC.chat
 
