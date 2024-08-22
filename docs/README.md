@@ -8,13 +8,33 @@ description: A constant update of how I spend my time at work.
 
 #### UIUC.chat
 
-1. Onboarded two new devs to UIUC.chat using our brand-new [Developer Quickstart](https://docs.uiuc.chat/developers/developer-quickstart) docs, they worked flawlessly! Pretty slick.&#x20;
-2. Finally set up centralized log monitoring. Still WIP, need to add `filebeat` and `metricbeat` to other physical servers in our fleet.&#x20;
+1. Onboarded two new devs to UIUC.chat using our brand-new [Developer Quickstart](https://docs.uiuc.chat/developers/developer-quickstart) docs, they worked flawlessly! Pretty slick.
+2. Fixed [a critical production bug](https://github.com/KastanDay/ai-ta-frontend/pull/168). Did [incremental refactoring,](https://github.com/KastanDay/ai-ta-frontend/pull/167) the platonic ideal of production code.
+3. Finally set up centralized log monitoring. Still WIP, need to add `filebeat` and `metricbeat` to other physical servers in our fleet.&#x20;
    1. 100% self hosted, because log-hosting companies have horrible pricing. My storage is cheap, nearly free, 10x better than hosted offerings. Therefore, worth the extra effort.
 
 <figure><img src=".gitbook/assets/CleanShot 2024-08-21 at 16.47.16.gif" alt=""><figcaption><p>ELK Stack (Elasticsearch, Logstash, Kibana). All the 5 docker containers on a single server, viewable in a single browser! Finally.</p></figcaption></figure>
 
-### Aug 18, 2024 (sunday)
+### Tuesday, Aug 20
+
+Infinite meetings on Tuesday. Updated stakeholders 😵‍💫
+
+#### UIUC.chat
+
+1. [Add secrets manager to backend.](https://github.com/UIUC-Chatbot/ai-ta-backend/commit/fb31cd04cc89f388900e1767e8008dfa737faff4) Add [docs for secrets manager.](https://docs.uiuc.chat/developers/developer-quickstart#backend-setup)
+2. Finally&#x20;
+
+
+
+#### sd
+
+1. d
+
+### Monday, Aug 19
+
+1. Did an incredible amount of Kubernetes debugging so I can self host the MMLI backend. Lots of PVCs and `kubectl apply`
+
+### Sunday, Aug 18
 
 #### Dotfiles refactor
 
@@ -25,8 +45,8 @@ Get the goodies here: [https://github.com/KastanDay/dotfiles](https://github.com
 1. Migrated my dotfiles from Gitlab to Github.&#x20;
 2. Greatly refined all my install scripts and README.
    1. [My best `~/.ZSHRC`](https://github.com/KastanDay/dotfiles/blob/master/master-setup-scripts/.zshrc\_mac)
-   2. My favorite developer utilities and OhMyZsh plugins&#x20;
-   3. My delightful Mini-Mamba install scripts
+   2. [My favorite developer utilities and OhMyZsh plugins](https://github.com/KastanDay/dotfiles/blob/master/master-setup-scripts/install\_mac\_apple\_silicon.conf.yaml)
+   3. [My delightful Mini-Mamba install scripts](https://github.com/KastanDay/dotfiles/tree/master/scripts)
 3. Notable mentions:
    * `Powerlevel 10k` , greatest thing since sliced bread
    * `glances` - a better htop
