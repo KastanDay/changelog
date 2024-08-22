@@ -22,13 +22,8 @@ Infinite meetings on Tuesday. Updated stakeholders 😵‍💫
 #### UIUC.chat
 
 1. [Add secrets manager to backend.](https://github.com/UIUC-Chatbot/ai-ta-backend/commit/fb31cd04cc89f388900e1767e8008dfa737faff4) Add [docs for secrets manager.](https://docs.uiuc.chat/developers/developer-quickstart#backend-setup)
-2. Finally&#x20;
-
-
-
-#### sd
-
-1. d
+2. Fix Llama 3.1 context windows size.&#x20;
+3. Fix automatic LLM selection function. Default to the best available model, with price tradeoffs.
 
 ### Monday, Aug 19
 
