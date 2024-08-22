@@ -10,8 +10,9 @@ description: A constant update of how I spend my time at work.
 
 1. Onboarded two new devs to UIUC.chat using our brand-new [Developer Quickstart](https://docs.uiuc.chat/developers/developer-quickstart) docs, they worked flawlessly! Pretty slick.&#x20;
 2. Finally set up centralized log monitoring. Still WIP, need to add `filebeat` and `metricbeat` to other physical servers in our fleet.&#x20;
+   1. 100% self hosted, because log-hosting companies have horrible pricing. My storage is cheap, nearly free, 10x better than hosted offerings. Therefore, worth the extra effort.
 
-<figure><img src=".gitbook/assets/CleanShot 2024-08-21 at 16.47.16.gif" alt=""><figcaption><p>ELK Stack (Elasticsearch, Logstash, Kibana). </p></figcaption></figure>
+<figure><img src=".gitbook/assets/CleanShot 2024-08-21 at 16.47.16.gif" alt=""><figcaption><p>ELK Stack (Elasticsearch, Logstash, Kibana). All the 5 docker containers on a single server, viewable in a single browser! Finally.</p></figcaption></figure>
 
 ### Aug 18, 2024 (sunday)
 
