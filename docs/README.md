@@ -4,6 +4,18 @@ description: A constant update of how I spend my time at work.
 
 # Changelog
 
+### Friday Aug 23
+
+Meet with Amazon AICE research team.&#x20;
+
+Tried and failed to configure ELK stack to use _**Elastic Fleet**_ to make it easier to connect external servers to the central ELK instance. Faced issues with TLS self signed certificates, even though I don't need or want TLS certs because I'm using Tailscale to connect services. It's a secure tunnel with automatic https, which removes the need for TLS certs.
+
+### Thursday Aug 22
+
+#### UIUC.chat
+
+1. Several hours of pair programming with Drshika, our new hire. Nearly did an end-to-end feature implementation: support for Azure OpenAI models, with user-supplied API keys. Great on boarding session to our code base.&#x20;
+
 ### Wednesday, Aug 21
 
 #### UIUC.chat
