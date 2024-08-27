@@ -4,6 +4,20 @@ description: A constant update of how I spend my time at work.
 
 # Changelog
 
+### Tuesday Aug 27
+
+#### UIUC.chat
+
+1. Add cron job + background job queue runner.&#x20;
+   1. Exploring: [https://bullmq.io/](https://bullmq.io/) vs [https://github.com/rq/rq](https://github.com/rq/rq) vs [https://github.com/aptible/supercronic](https://github.com/aptible/supercronic)
+
+### Monday Aug 26
+
+#### MMLI
+
+1. Fully self-hosted the MMLI backend Kubernetes stack. Debugging required applying some K8 PVCs and ConfigMaps. Now it's all fully documented and self hosted.&#x20;
+   1. [Docs](https://github.com/moleculemaker/mmli-backend/pull/59), [adding ACERetro to K8s job runner](https://github.com/moleculemaker/mmli-backend/pull/56), and [Dockerizing ACERetro so it can run in K8s](https://github.com/Zhao-Group/ACERetro/pull/3).
+
 ### Friday Aug 23
 
 Meet with Amazon AICE research team.&#x20;
